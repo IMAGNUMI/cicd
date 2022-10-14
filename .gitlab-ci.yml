@@ -4,6 +4,7 @@ stages:
   - deploy
 
 testcases:
+    image: python:latest
     stage: test
     script:
       - pip install -r requirements.txt
